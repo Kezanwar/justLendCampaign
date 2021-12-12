@@ -36,6 +36,8 @@ const Main__progressBar = (props) => {
             progressBarContainerWrapperClasses = 'progressBarContainerWrapper prog-AfGreen'
             completed = onebyseven * 7;
             break;
+        default:
+            break
     }
 
     if (props.formCount === -1) {

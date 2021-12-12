@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Main__form from './main__form/main__form';
-import Main__progressBar from './main__progressBar/main__progressBar';
+import MainForm from './main__form/main__form';
+import MainProgressBar from './main__progressBar/main__progressBar';
 
 import './main__formSection.css';
 
@@ -23,9 +23,9 @@ const Main__FormSection = () => {
 
     return (
         <div className='main__FormSection'>
-            <Main__progressBar formCount={formCount} setFormCount={setFormCount} />
+            <MainProgressBar formCount={formCount} setFormCount={setFormCount} />
             <button className='progbtn' onClick={updateProgressHandler}>Progress</button>
-            <Main__form />
+            <MainForm />
         </div>
     )
 }

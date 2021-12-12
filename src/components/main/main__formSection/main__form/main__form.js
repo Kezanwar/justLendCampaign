@@ -1,6 +1,7 @@
-import React from 'react'
-import CampaignSummary from './campaignSummary/campaignSummary'
-import './main__form.css'
+import React from 'react';
+import CampaignSummary from './campaignSummary/campaignSummary';
+import FormControlBox from './formControlBox/formControlBox';
+import './main__form.css';
 
 const Main__form = () => {
 
@@ -11,15 +12,10 @@ const Main__form = () => {
     return (
         <div className='Main__form'>
             <div className='formComponentWrapper'>
-                <div className="formComponent0">
-
-                </div>
-
+                <div className="formComponent0"></div>
+                <FormControlBox />
             </div>
-
             <CampaignSummary />
-
-
         </div>
     )
 }

@@ -55,7 +55,7 @@ const FormComponent__6 = (props) => {
                         <label>Account Number</label>
                         <input onChange={campaignAccountNumberHandler} value={accountNumber} type='text'></input>
                     </div>
-                    <div className='formInputContainer'>
+                    <div className='formInputContainer lastName'>
                         <label>Sort Code</label>
                         <input onChange={campaignSortCodeHandler} value={sortCode} type='text'></input>
                     </div>

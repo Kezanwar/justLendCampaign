@@ -23,7 +23,7 @@
 
 .formTitleBox {
     display: flex;
-    border-bottom: solid 3px var(--green);
+    border-bottom: solid 2px var(--green);
 
 }
 
@@ -61,9 +61,9 @@
 .formInputContainer label {
     font-size: 0.8rem;
     color: var(--lightGrey);
-    border-left: 3px solid var(--green);
+    border-left: 2px solid var(--green);
     padding-left: 0.5rem;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 0.725rem;
 }
 

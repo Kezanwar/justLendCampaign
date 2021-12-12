@@ -52,11 +52,11 @@ const FormComponent__3 = (props) => {
                         <label>Choose Repayment Length</label>
                         <select onChange={campaignLengthHandler} value={length}>
                             <option> Choose An Option </option>
-                            <option value='0.5'> 6 Months </option>
-                            <option value='1'> 12 Months </option>
-                            <option value='1.5'> 36 Months </option>
-                            <option value='2'> 48 Months </option>
-                            <option value='3'> 60 Months </option>
+                            <option value='6'> 6 Months </option>
+                            <option value='12'> 12 Months </option>
+                            <option value='36'> 36 Months </option>
+                            <option value='48'> 48 Months </option>
+                            <option value='60'> 60 Months </option>
                         </select>
                     </div>
                 </form>

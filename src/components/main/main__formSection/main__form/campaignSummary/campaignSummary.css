@@ -1,4 +1,71 @@
 .CampaignSummary {
     flex-basis: 25%;
     box-shadow: var(--whiteSectionShdow);
+    display: flex;
+    word-wrap: break-word;
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+    overflow: scroll;
+    gap: 1rem;
+}
+
+.CampaignSummary h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--lightGrey);
+}
+
+
+.CampaignSummary h4 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--lightGrey);
+    height: 1.3rem;
+}
+
+.CampaignSummary h4:nth-of-type(2) {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: var(--lightGrey);
+    height: 1.3rem;
+}
+
+.CampaignSummary h4:nth-of-type(3) {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: var(--lightGrey);
+    min-height: 2.4rem;
+}
+
+
+.CampaignSummary .campaignImage {
+    height: 30%;
+    width: 100%;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--lightGrey);
+}
+
+.greyedOut {
+    background-color: rgb(182, 182, 182);
+}
+
+.greyedOut2 {
+    background-color: rgb(204, 204, 204);
+}
+
+.campaignValues {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-grow: 1;
+    gap: 0.75rem;
+}
+
+.campaignValues p {
+    font-size: 0.8rem;
+    font-weight: 300;
 }

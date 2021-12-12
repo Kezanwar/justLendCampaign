@@ -1,0 +1,46 @@
+.launchForm {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.launchForm img {
+    align-self: flex-end;
+    height: 15rem;
+}
+
+.launch-text {
+    padding-top: 1rem;
+    color: grey;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.launchFormRight {
+    height: 100%;
+    width: 40%;
+    padding-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.launchFormRight .formInputContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.launchFormRight .formInputContainer input {
+    font-size: 0.9rem;
+}
+
+.launchFormRight .formInputContainer label {
+    border: none;
+}

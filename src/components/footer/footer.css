@@ -1,4 +1,23 @@
 .Footer {
     flex-basis: 10%;
     background-color: var(--darkGrey);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1rem 2rem;
+}
+
+.Footer .linkBox {
+    display: flex;
+    gap: 2rem;
+}
+
+.Footer a {
+    font-size: 0.8rem;
+    color: var(--lightGrey);
+    text-decoration: none;
+}
+
+.Footer a:hover {
+    filter: brightness(1.2);
 }

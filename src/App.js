@@ -22,10 +22,10 @@ const App = () => {
 
   // implement a Dark theme switch using useContext hook
 
-  const theme = {
-    white: '#fff',
-    offWhite: '#fff'
-  }
+  // const theme = {
+  //   white: '#fff',
+  //   offWhite: '#fff'
+  // }
 
   return (
 

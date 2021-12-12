@@ -3,7 +3,7 @@ import './formComponent__1.css';
 
 const FormComponent__1 = (props) => {
 
-    const { title, type, located } = props.campaign;
+    const { title, type, tagline } = props.campaign;
 
 
     const campaignTypeHandler = (e) => {
@@ -14,8 +14,8 @@ const FormComponent__1 = (props) => {
         props.setCampaign(prev => ({ ...prev, title: e.target.value }));
     }
 
-    const campaignLocatedHandler = (e) => {
-        props.setCampaign(prev => ({ ...prev, located: e.target.value }));
+    const campaignTaglineHandler = (e) => {
+        props.setCampaign(prev => ({ ...prev, tagline: e.target.value }));
     }
 
     return (
@@ -41,8 +41,8 @@ const FormComponent__1 = (props) => {
                         <input onChange={campaignTitleHandler} value={title} type='text'></input>
                     </div>
                     <div className='formInputContainer'>
-                        <label>Where are you located?</label>
-                        <input onChange={campaignLocatedHandler} value={located} type='text'></input>
+                        <label>Campaign tagline</label>
+                        <input onChange={campaignTaglineHandler} value={tagline} type='text'></input>
                     </div>
                 </form>
             </div>

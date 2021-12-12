@@ -9,7 +9,7 @@
 
 .formComponent__0__text-contentBox p:nth-of-type(1) {
     color: var(--lightGrey);
-    font-weight: bold;
+    font-weight: 600;
     letter-spacing: 2px;
     font-size: 0.8rem;
 }
@@ -42,12 +42,12 @@
 .iconBox__iconContainer img {
     color: var(--darkGrey);
     /* background-color: var(--green); */
-    height: 1.4rem;
+    height: 1.8rem;
 }
 
 .iconBox__iconContainer h5 {
     color: var(--lightGrey);
-    font-weight: 900;
+    font-weight: 700;
     font-size: 0.725rem;
 }
 

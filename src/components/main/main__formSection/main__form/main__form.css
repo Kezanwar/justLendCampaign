@@ -1,0 +1,17 @@
+.Main__form {
+    flex-basis: 80%;
+    display: flex;
+    
+}
+
+.formComponentWrapper {
+    flex-basis: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formComponent0 {
+    height: 100%;
+    width: 100%;
+}

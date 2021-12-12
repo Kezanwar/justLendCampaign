@@ -1,0 +1,11 @@
+.main__FormSection {
+    flex-basis: 90%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.progbtn {
+    position: absolute;
+    bottom: 0px;
+}

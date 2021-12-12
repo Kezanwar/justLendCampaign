@@ -1,0 +1,10 @@
+.Header {
+    height: 100%;
+    flex-basis: 20%;
+    box-shadow: var(--whiteSectionShdow);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: hidden;
+}

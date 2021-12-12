@@ -1,0 +1,4 @@
+.CampaignSummary {
+    flex-basis: 25%;
+    box-shadow: var(--whiteSectionShdow);
+}

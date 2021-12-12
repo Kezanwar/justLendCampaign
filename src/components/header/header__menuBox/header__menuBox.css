@@ -1,0 +1,8 @@
+.Header__menuBox {
+    height: 39%;
+    width: 100%;
+    padding: 1rem 1.5rem 0rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

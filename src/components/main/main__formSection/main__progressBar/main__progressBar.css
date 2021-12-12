@@ -1,0 +1,127 @@
+.Main__progressBar {
+    flex-basis: 20%;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progressBarContainerWrapper {
+    position: relative;
+}
+
+.progressBarContainerWrapper::after, .progressBarContainerWrapper::before {
+    position: absolute;
+    width: 4rem;
+    text-align: center;
+    font-size: 0.65rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--darkGrey);
+}
+
+.progressBarContainerWrapper::before {
+    content: 'Start Creating';
+    left: -10%;
+}
+
+.progressBarContainerWrapper::after {
+    content: 'Launch Campaign';
+    right: -10%;
+}
+
+.prog {
+    position: absolute;
+    height: 4px;
+    width: 1px;
+    background-color: var(--darkGrey);
+
+}
+
+.prog::after {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.6rem;
+    color: var(--darkGrey);
+    transition: all 150ms ease;
+}
+
+.prog-1 {
+    bottom: -10px;
+    left: 14.28%;
+}
+
+.prog-1::after {
+    bottom: -30px;
+    width: 6.8rem;
+    content: 'Step 1: Campaign Details'
+}
+
+
+.prog-2 {
+    top: -10px;
+    left: 28.57%;
+}
+
+.prog-2::after {
+    top: -15px;
+    width: 6rem;
+    content: 'Step 2: Additional Info'
+}
+
+.prog-3 {
+    bottom: -10px;
+    left: 42.85%;
+}
+
+.prog-3::after {
+    bottom: -30px;
+    width: 7.9rem;
+    content: 'Step 3: How Much You Need'
+}
+
+.prog-4 {
+    top: -10px;
+    left: 57.13%;
+}
+
+.prog-4::after {
+    top: -15px;
+    width: 5rem;
+    content: 'Step 4: About You'
+}
+
+.prog-5 {
+    bottom: -10px;
+    left: 71.41%;
+}
+
+.prog-5::after {
+    bottom: -30px;
+    width: 5.8rem;
+    content: 'Step 5: Your Address'
+}
+
+.prog-6 {
+    top: -10px;
+    left: 85.69%;
+}
+
+.prog-6::after {
+    top: -15px;
+    width: 7rem;
+    content: 'Step 7: Your Bank Details'
+}
+
+.prog-col::after {
+    text-shadow: 1px 1px 0px var(--green);
+}
+
+.prog-BfGreen::before {
+    text-shadow: 1px 1px 0px var(--green);
+}
+
+.prog-AfGreen::After {
+    text-shadow: 1px 1px 0px var(--green);
+}

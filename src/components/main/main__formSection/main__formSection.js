@@ -8,24 +8,13 @@ import './main__formSection.css';
 
 const Main__FormSection = () => {
 
-
     const [formCount, setFormCount] = useState(0);
-
-
-    const updateProgressHandler = () => {
-
-        setFormCount(prev => prev + 1);
-
-    }
-
-
 
 
     return (
         <div className='main__FormSection'>
             <MainProgressBar formCount={formCount} setFormCount={setFormCount} />
-            <button className='progbtn' onClick={updateProgressHandler}>Progress</button>
-            <MainForm />
+            <MainForm formCount={formCount} setFormCount={setFormCount} />
         </div>
     )
 }

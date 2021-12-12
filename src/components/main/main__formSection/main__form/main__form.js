@@ -3,7 +3,7 @@ import CampaignSummary from './campaignSummary/campaignSummary';
 import FormControlBox from './formControlBox/formControlBox';
 import './main__form.css';
 
-const Main__form = () => {
+const Main__form = (props) => {
 
     // make an array of form components (include keys)
     // render arr[props.formCount]
@@ -13,7 +13,7 @@ const Main__form = () => {
         <div className='Main__form'>
             <div className='formComponentWrapper'>
                 <div className="formComponent0"></div>
-                <FormControlBox />
+                <FormControlBox formCount={props.formCount} setFormCount={props.setFormCount} />
             </div>
             <CampaignSummary />
         </div>

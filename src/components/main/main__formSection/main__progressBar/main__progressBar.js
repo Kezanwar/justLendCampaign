@@ -67,7 +67,7 @@ const Main__progressBar = (props) => {
         width: `${completed}%`,
         backgroundColor: '#4de6ab',
         borderRadius: '50px',
-        transition: 'width 0.4s ease-in-out',
+        transition: 'width 0.4s ease-in',
     }
 
 
@@ -82,6 +82,10 @@ const Main__progressBar = (props) => {
 
                 </div>
 
+
+
+                {/* <div className={props.formCount === 0 ? 'prog prog-0 prog-col' : 'prog prog-0'} ></div> */}
+
                 <div className={props.formCount === 1 ? 'prog prog-1 prog-col' : 'prog prog-1'} ></div>
 
                 <div className={props.formCount === 2 ? 'prog prog-2 prog-col' : 'prog prog-2'} ></div>
@@ -93,6 +97,8 @@ const Main__progressBar = (props) => {
                 <div className={props.formCount === 5 ? 'prog prog-5 prog-col' : 'prog prog-5'} ></div>
 
                 <div className={props.formCount === 6 ? 'prog prog-6 prog-col' : 'prog prog-6'} ></div>
+
+                {/* <div className={props.formCount === 7 ? 'prog prog-7 prog-col' : 'prog prog-7'} ></div> */}
             </div>
 
         </div >

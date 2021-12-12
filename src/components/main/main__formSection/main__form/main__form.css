@@ -1,5 +1,5 @@
 .Main__form {
-    flex-basis: 80%;
+    flex-basis: 80.25%;
     display: flex;
     
 }
@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .formComponent0 {

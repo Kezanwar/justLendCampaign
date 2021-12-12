@@ -82,9 +82,7 @@ const Main__progressBar = (props) => {
 
                 </div>
 
-
-
-                {/* <div className={props.formCount === 0 ? 'prog prog-0 prog-col' : 'prog prog-0'} ></div> */}
+                <i className={props.formCount === 0 ? 'fas fa-running' : 'fas fa-running icon-vis'}></i>
 
                 <div className={props.formCount === 1 ? 'prog prog-1 prog-col' : 'prog prog-1'} ></div>
 
@@ -98,7 +96,10 @@ const Main__progressBar = (props) => {
 
                 <div className={props.formCount === 6 ? 'prog prog-6 prog-col' : 'prog prog-6'} ></div>
 
-                {/* <div className={props.formCount === 7 ? 'prog prog-7 prog-col' : 'prog prog-7'} ></div> */}
+                <i className={props.formCount === 0 ? 'fas fa-running' : 'fas fa-running icon-vis'}></i>
+
+                <i className={props.formCount === 7 ? 'fas fa-rocket' : 'fas fa-rocket icon-vis'}></i>
+
             </div>
 
         </div >

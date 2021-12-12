@@ -15,19 +15,21 @@ const FormControlBox = (props) => {
 
     }
 
+    let nextText = 'Next';
 
+    if (props.formCount === 0) {
+        nextText = 'Start'
+    }
 
+    if (props.formCount === 7) {
+        nextText = 'Launch'
+    }
 
     return (
         <div className='FormControlBox'>
-            <button onClick={backFormHandler} className='form-btn back'>Back</button>
-            <button onClick={nextFormHandler} className='form-btn next'>Next</button>
-
-
+            <button onClick={backFormHandler} className={props.formCount > 0 ? 'form-btn back' : 'form-btn back back-vis'}>Back</button>
+            <button onClick={nextFormHandler} className='form-btn next'>{nextText}</button>
         </div>
-
-
-
     )
 }
 

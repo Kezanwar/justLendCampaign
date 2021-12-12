@@ -153,3 +153,31 @@
     color: var(--darkGrey);
     text-shadow: 1px 1px 0px var(--green);
 }
+
+.fa-running {
+    position: absolute;
+    left: -85px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--lightGrey);
+    transition: all 0.5s ease;
+    opacity: 1;
+}
+
+.fa-rocket {
+    position: absolute;
+    right: -100px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--lightGrey);
+    transition: all 0.5s ease;
+    opacity: 1;
+}
+
+.icon-vis {
+    opacity: 0;
+}

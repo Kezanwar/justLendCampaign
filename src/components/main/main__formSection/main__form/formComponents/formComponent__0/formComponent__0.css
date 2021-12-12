@@ -1,0 +1,60 @@
+/* Text Content */
+
+.formComponent__0__text-contentBox {
+    padding: 1.5rem 0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.formComponent__0__text-contentBox p:nth-of-type(1) {
+    color: var(--lightGrey);
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+}
+
+.formComponent__0__text-contentBox p {
+    color: rgb(85, 85, 85);
+    font-weight: 300;
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+/* Icons and container and styles */
+
+.formComponent__0__iconBox {
+    display: flex;
+    padding: 1rem 0rem;
+}
+
+
+.iconBox__iconContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.iconBox__iconContainer img {
+    color: var(--darkGrey);
+    /* background-color: var(--green); */
+    height: 1.4rem;
+}
+
+.iconBox__iconContainer h5 {
+    color: var(--lightGrey);
+    font-weight: 900;
+    font-size: 0.725rem;
+}
+
+
+.iconBox__iconContainer p {
+    color: rgb(82, 82, 82);
+    font-weight: 300;
+    font-size: 0.75rem;
+    text-align: center;
+}

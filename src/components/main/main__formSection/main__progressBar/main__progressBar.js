@@ -65,7 +65,7 @@ const Main__progressBar = (props) => {
     const fillerStyles = {
         height: '100%',
         width: `${completed}%`,
-        backgroundColor: '#4de6ab',
+        backgroundColor: '#52ecb1',
         borderRadius: '50px',
         transition: 'width 0.4s ease-in',
     }

@@ -1,0 +1,37 @@
+.custom-file-input {
+    padding: 0.75rem !important;
+    width: 30%;
+    cursor: pointer !important;
+    position: relative;
+
+}
+
+.custom-file-input:hover {
+    border: 1px solid var(--green);
+
+}
+
+.custom-file-input::before {
+    content: '\f03e';
+    color: var(--lightGrey);
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 1rem;
+    position: absolute;
+    margin-left: 1rem;
+    top: 50%;
+    left: 0.5rem;
+    transform: translateY(-50%);
+    opacity: 1;
+    cursor: pointer;
+    pointer-events: none;
+
+}
+
+.custom-file-input::-webkit-file-upload-button {
+    padding: 0.4rem 0.8rem;
+    border: none;
+    font-size: 0.7rem;
+    opacity: 0;
+    cursor: pointer;
+}

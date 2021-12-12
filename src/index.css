@@ -48,7 +48,7 @@ p, h1, h2, h3, h4, h5, h6 {
   --white: #fff;
   --darkGrey: rgb(43, 43, 43);
   --lightGrey: rgb(144, 144, 144);
-  --green: #4de6ab;
+  --green: #52ecb1;
   /* font sizes */
   --fsXL: 2.4rem;
   --fs800: 2rem;
@@ -64,6 +64,7 @@ p, h1, h2, h3, h4, h5, h6 {
   --pdSML: 1rem;
   /* boxshadows */
   --whiteSectionShdow: 1px 1px 8px 2px rgba(117, 117, 117, 0.172);
+  --formInputShadow: 1px 1px 8px 1px rgba(117, 117, 117, 0.172);
   --lightGreySectionShdow: 1px 1px 12px 4px rgba(199, 199, 199, 0.172);
 }
 
@@ -75,6 +76,10 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .delay1000 {
   animation: fadeIn 500ms ease 1000ms forwards;
+}
+
+.formAnimation {
+  animation: fadeIn 600ms ease-in-out 100ms forwards;
 }
 
 @keyframes fadeIn {

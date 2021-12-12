@@ -1,0 +1,10 @@
+.firstName {
+    width: 50%;
+}
+
+.lastName {
+    width: 50%;
+}
+.telephone{
+    width: calc(50% - 0.75rem);
+}

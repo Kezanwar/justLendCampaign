@@ -1,6 +1,7 @@
 .Main__form {
     flex-basis: 81.25%;
     display: flex;
+    flex-grow: 1;
 
 }
 
@@ -11,7 +12,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    
+
 }
 
 .formComponent {
@@ -110,6 +111,18 @@
         justify-content: center;
         align-items: center;
         position: relative;
+    }
+
+    .formComponent {
+        gap: 1rem;
+    }
+
+    .formInputContainer label {
+        color: var(--lightGrey);
+        border-left: 2px solid var(--green);
+        padding-left: 0.5rem;
+        font-weight: 600;
+        font-size: 0.85rem;
     }
 
 }

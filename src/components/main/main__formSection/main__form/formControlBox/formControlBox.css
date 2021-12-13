@@ -97,3 +97,13 @@
 .next-launch::before {
     content: '\f135';
 } */
+
+@media only screen and (max-width: 768px) {
+    .FormControlBox {
+        width: 50%;
+        bottom: 1.5rem;
+        left: 0rem;
+        transform: translate(50%, 0%);
+    }
+
+}

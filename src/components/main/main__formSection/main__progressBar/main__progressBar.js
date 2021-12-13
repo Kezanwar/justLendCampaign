@@ -49,10 +49,10 @@ const Main__progressBar = (props) => {
     }
 
 
-    const wrapperStyles = {
-        height: '12%',
-        width: '77%',
-    }
+    // const wrapperStyles = {
+    //     height: '12%',
+    //     width: '77%',
+    // }
 
     const containerStyles = {
         height: '100%',
@@ -74,7 +74,7 @@ const Main__progressBar = (props) => {
     return (
         <div className='Main__progressBar'>
 
-            <div className={progressBarContainerWrapperClasses} style={wrapperStyles}>
+            <div className={progressBarContainerWrapperClasses}>
 
                 <div className="progressBarContainer" style={containerStyles}>
 

@@ -10,6 +10,9 @@
 
 .progressBarContainerWrapper {
     position: relative;
+    height: 12%;
+    width: 77%;
+
 }
 
 .progressBarContainerWrapper::after, .progressBarContainerWrapper::before {
@@ -27,6 +30,7 @@
 
 .progressBarContainerWrapper::before {
     content: 'Start Creating';
+
     left: -10%;
 }
 
@@ -185,19 +189,33 @@
 
 @media only screen and (max-width: 768px) {
 
+    .Main__progressBar {
+        flex-basis: 10%;
+        overflow: hidden;
+    }
+
+    .progressBarContainerWrapper {
+        height: 20%;
+        width: 70%;
+    }
+
+
+
 
     .prog {
         display: none;
     }
 
     .progressBarContainerWrapper::before {
-        content: 'Start Creating';
-        left: -15%;
+        content: 'Start';
+        left: -17.5%;
+        font-size: 0.6rem;
     }
 
     .progressBarContainerWrapper::after {
-        content: 'Launch Campaign';
-        right: -15%;
+        content: 'Launch';
+        right: -20%;
+        font-size: 0.6rem;
     }
 
 }

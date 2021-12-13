@@ -37,10 +37,6 @@
     gap: 1rem;
 }
 
-.launchFormRight .formInputContainer input {
-    font-size: 0.9rem;
-}
-
 .launchFormRight .formInputContainer label {
     border: none;
 }

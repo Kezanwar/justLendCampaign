@@ -182,3 +182,22 @@
 .icon-vis {
     opacity: 0;
 }
+
+@media only screen and (max-width: 768px) {
+
+
+    .prog {
+        display: none;
+    }
+
+    .progressBarContainerWrapper::before {
+        content: 'Start Creating';
+        left: -15%;
+    }
+
+    .progressBarContainerWrapper::after {
+        content: 'Launch Campaign';
+        right: -15%;
+    }
+
+}

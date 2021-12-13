@@ -2,3 +2,11 @@
   height: 100vh;
   display: flex;
 }
+
+@media only screen and (max-width: 768px) {
+  .App {
+    height: 110vh;
+    display: flex;
+  }
+
+}

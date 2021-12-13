@@ -6,10 +6,12 @@
 
 .formComponentWrapper {
     flex-basis: 75%;
+    flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    
 }
 
 .formComponent {
@@ -39,6 +41,7 @@
 /* ------- form input styles -------- */
 
 .form {
+    appearance: none;
     padding-top: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -68,6 +71,7 @@
 }
 
 .formInputContainer input, .formInputContainer select, .formInputContainer textarea {
+    appearance: none;
     cursor: pointer;
     outline: none;
     padding: 0.5rem 0.5rem;
@@ -76,6 +80,7 @@
     border: 1px solid rgba(221, 221, 221, 0);
     transition: all 300ms ease;
     box-shadow: var(--formInputShadow);
+    -webkit-box-shadow: var(--formInputShadow);
 }
 
 .formInputContainer select {
@@ -94,4 +99,17 @@
 
 .formInputContainer input:focus, .formInputContainer select:focus, .formInputContainer textarea:focus {
     border: 1px solid var(--green);
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    .formComponentWrapper {
+        flex-basis: 75%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
 }

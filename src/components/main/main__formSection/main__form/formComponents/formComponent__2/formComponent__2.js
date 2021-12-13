@@ -9,7 +9,6 @@ const FormComponent__2 = (props) => {
         props.setCampaign(prev => ({ ...prev, description: e.target.value }));
     }
 
-
     return (
         <div className='formComponent formComponent__0 formAnimation'>
             <div className='formTitleBox'>

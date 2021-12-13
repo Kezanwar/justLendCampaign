@@ -7,6 +7,7 @@
     padding: 2rem 1.5rem;
     overflow: scroll;
     gap: 1rem;
+    
 }
 
 .CampaignSummary h2 {
@@ -68,4 +69,10 @@
 .campaignValues p {
     font-size: 0.8rem;
     font-weight: 300;
+}
+
+@media only screen and (max-width: 768px) {
+    .CampaignSummary {
+        display: none;
+    }
 }

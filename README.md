@@ -1,10 +1,14 @@
 # justLendCampaign WORK IN PROGRESS
 
-CODING TASK:
+JustLend Coding Task;-
 
-"Re-imagine this sign up  / create a campaign page for Just Lend - https://justlend.co/register
-[ Just the one page not the whole process ]
+Unfortunately feel like ive ran out of time, spent near enough all weekend working on it, had some sacrfices due to the timescale that i'll list below:
 
-Please focus on the front end, if you want to connect it to a back-end or database you are more than welcome to also.
+- Absolutelty 0 responsiveness implemented, literally not one media query unfortunately. This decision was made because I probably gave myself too much to do and ended up spending the whole time building out components, wouldnt have got all the sections finished if i spent time dealing with responsiveness & the debugging that comes along with it.
 
-This can range from copying the format exactly but making it look more visually appealing, and or making functionally more user friendly"
+- No backend, started the project off using a react/express boiler plate project, ended up splitting it into a fresh create-react-app because i realised i probablky wont ave time to build out the express/mongoDB back end and also ive never tried to host a react/express app on firebase, thought it would be better to just stick to what i know with hosting a static site on firebase
+
+- There are a few more things but will discuss in the interview!
+
+https://justlend-newcampaign.web.app/ view the project here :D
+

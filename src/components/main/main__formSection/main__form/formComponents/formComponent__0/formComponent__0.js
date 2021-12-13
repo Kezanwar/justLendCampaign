@@ -22,6 +22,11 @@ const FormComponent__0 = (props) => {
             </div>
             <div className='formComponent__0__iconBox'>
                 <div className='iconBox__iconContainer'>
+                    <img alt='wand' src={ThumbsUp}></img>
+                    <h5>Choose an amount</h5>
+                    <p>Borrow up to £10,000 with JustLend.</p>
+                </div>
+                <div className='iconBox__iconContainer'>
                     <img alt='wand' src={Wand}></img>
                     <h5>Choose your interest rate</h5>
                     <p>Vary the interest rate as you require.</p>
@@ -31,11 +36,7 @@ const FormComponent__0 = (props) => {
                     <h5>Set your term length</h5>
                     <p>From 1 month to 5 years, you decide.</p>
                 </div>
-                <div className='iconBox__iconContainer'>
-                    <img alt='wand' src={ThumbsUp}></img>
-                    <h5>Choose an amount</h5>
-                    <p>Borrow up to £10,000 with JustLend.</p>
-                </div>
+
             </div>
         </div>
     )

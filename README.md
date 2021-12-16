@@ -1,8 +1,6 @@
-# justLendCampaign (WORK IN PROGRESS)
+# justLendCampaign (CODING TASK / TIME TRIAL)
 
-JustLend Coding Task;-
-
-Really enjoyed this one, just feel like ive ran out of time! Had to make some sacrfices due to the timescale that i'll list below:
+Really enjoyed this one! Had to make some sacrfices due to the timescale that i'll list below:
 
 - Only a handful of media queries implemented, this decision was forced because I gave myself too much to do, which resulted in having to spend nearly all of build time fleshing out components. As the build commenced I realised I wouldnt be able to get all the sections finished if I spent time configuring responsiveness & the usual debugging that comes along with it. So unfortunately the project will only look as intended on a 13" Macbook Pro using Chrome as thats what ive built it with with a few extractions from the DOM at 768px breakpoint. An annoying sacrifice to make as i think this project has potenital to look real smooth across other screen sizes.
 

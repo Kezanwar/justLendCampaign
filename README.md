@@ -6,7 +6,5 @@ Really enjoyed this one! Had to make some sacrfices due to the timescale that i'
 
 - No backend, started the project off using a react/express boiler plate project, ended up splitting it into a fresh create-react-app because i realised i probablky wont ave time to build out the express/mongoDB back end. Also, ive never tried to host a react/express app on firebase, thought it would be better to just stick to what i know with hosting a static site on firebase
 
-- There are a few more things but will discuss in the interview!
-
 https://justlend-newcampaign.web.app/ view the project here :D
 
